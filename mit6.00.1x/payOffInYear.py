@@ -5,7 +5,6 @@
 
 def calculateBalance(unpaidBalance, interest):
     ''' (number, number) -> float
-
     Returns the outstanding unpaidBalance including interest.
     >>> balance(4900, 73.50)
     4973.50
@@ -15,7 +14,6 @@ def calculateBalance(unpaidBalance, interest):
 
 def minimumPayment(balance, interestRate):
     ''' (number, number) -> float
-
     Returns the minimum payment due on the balance with
     interestRate.
     Pre-condition: balance must be an int represented in pennies.
